@@ -1,3 +1,6 @@
+import Image from "next/image";
+import StandMap from "./StandMap";
+
 export default function Home() {
   return (
     <>
@@ -22,24 +25,34 @@ export default function Home() {
       </nav>
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-white py-28 sm:py-40 px-6">
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/[0.04] rounded-full blur-3xl -translate-y-1/3 translate-x-1/4" />
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-accent/[0.06] rounded-full blur-3xl translate-y-1/3 -translate-x-1/4" />
+      <section className="relative overflow-hidden py-28 sm:py-40 px-6">
+        <Image
+          src="/H%C3%B8je%20Gladsaxe.png"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover -z-10"
+        />
+        <div className="absolute inset-0 bg-white/50 -z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-white/60 -z-10" />
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/[0.08] rounded-full blur-3xl -translate-y-1/3 translate-x-1/4" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-accent/[0.10] rounded-full blur-3xl translate-y-1/3 -translate-x-1/4" />
 
         <div className="relative max-w-3xl mx-auto text-center">
           <div className="animate-fade-in-up">
             <span className="inline-flex flex-col items-center bg-accent-soft text-accent text-base font-semibold px-8 py-4 rounded-2xl mb-10 gap-1 border border-accent/10">
-              <span>Hver s&oslash;ndag i Gladsaxe fra 8&ndash;14</span>
-              <span className="text-sm text-accent/60 font-medium">1. april &ndash; 15. oktober</span>
+              <span>Hver l&oslash;rdag i Gladsaxe fra kl. 9&ndash;14</span>
+              <span className="text-sm text-accent/60 font-medium">10. maj &ndash; 17. oktober</span>
             </span>
           </div>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.1] mb-6 animate-fade-in-up-delay whitespace-nowrap">
             Gladsaxe Loppemarked.
           </h1>
-          <p className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-accent leading-[1.1] mb-6 animate-fade-in-up-delay">
+          <p className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#6b7f52] leading-[1.1] mb-6 animate-fade-in-up-delay">
             Giv ting nyt liv.
           </p>
-          <p className="text-lg sm:text-xl text-muted mb-12 max-w-md mx-auto leading-relaxed animate-fade-in-up-delay-2">
+          <p className="text-lg sm:text-xl text-slate-700 font-medium mb-12 max-w-md mx-auto leading-relaxed animate-fade-in-up-delay-2">
             Kom forbi Gladsaxe Torv og oplev gl&aelig;den ved genbrug og gode fund.
           </p>
           <div className="flex justify-center animate-fade-in-up-delay-2">
@@ -62,15 +75,12 @@ export default function Home() {
             Om os
           </span>
           <p className="text-muted text-lg leading-relaxed">
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-            <br />
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-            <br />
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-            <br />
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-            <br />
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Gladsaxe Loppemarked drives af <strong className="font-semibold text-foreground">H&oslash;je Gladsaxe Idr&aelig;tsforening</strong> &ndash;
+            en lokal amat&oslash;rforening, der siden 1966 har samlet b&oslash;rn, unge og voksne om fodbold, h&aring;ndbold, pickleball og f&aelig;llesskab.
+          </p>
+          <p className="text-muted text-lg leading-relaxed mt-6">
+            Hele overskuddet fra loppemarkedet g&aring;r ubeskaaret til foreningens aktiviteter &ndash; til tr&aelig;ning, kampe, udstyr og sociale arrangementer for vores medlemmer.
+            N&aring;r du k&oslash;ber eller s&aelig;lger hos os, st&oslash;tter du alts&aring; det lokale idr&aelig;tsliv i Gladsaxe.
           </p>
         </div>
       </section>
@@ -109,11 +119,11 @@ export default function Home() {
               </div>
               <h3 className="font-semibold text-lg mb-2 text-foreground">&Aring;bningstider</h3>
               <p className="text-muted text-sm leading-relaxed">
-                Hver s&oslash;ndag
+                Hver l&oslash;rdag
                 <br />
-                08:00 &ndash; 14:00
+                09:00 &ndash; 14:00
                 <br />
-                1. april &ndash; 15. oktober
+                10. maj &ndash; 17. oktober
               </p>
             </div>
             <div className="bg-accent-soft rounded-2xl p-7 border border-accent/10 hover:border-accent/20 hover:shadow-md transition-all duration-200">
@@ -141,6 +151,24 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Pladsoversigt */}
+      <section id="pladser" className="py-24 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="text-sm font-semibold text-accent uppercase tracking-widest">
+              Pladsoversigt
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-bold mt-3 text-foreground">
+              V&aelig;lg din plads
+            </h2>
+            <p className="text-muted mt-4 max-w-xl mx-auto">
+              Se alle stadepladser p&aring; kortet. Klik p&aring; en plads for at g&aring; direkte til booking.
+            </p>
+          </div>
+          <StandMap />
         </div>
       </section>
 
