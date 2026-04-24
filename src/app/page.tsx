@@ -8,7 +8,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#" className="text-lg font-bold tracking-tight text-foreground uppercase">
-            Gladsaxe Loppemarked
+            H&oslash;je Gladsaxe Loppemarked
           </a>
           <div className="hidden sm:flex gap-8 text-sm font-medium text-muted">
             <a href="#om" className="hover:text-foreground transition-colors duration-200">
@@ -42,18 +42,18 @@ export default function Home() {
         <div className="relative max-w-3xl mx-auto text-center">
           <div className="animate-fade-in-up">
             <span className="inline-flex flex-col items-center bg-accent-soft text-accent text-base font-semibold px-8 py-4 rounded-2xl mb-10 gap-1 border border-accent/10">
-              <span>Hver l&oslash;rdag i Gladsaxe fra kl. 9&ndash;14</span>
-              <span className="text-sm text-accent/60 font-medium">10. maj &ndash; 17. oktober</span>
+              <span>Hver l&oslash;rdag i H&oslash;je Gladsaxe fra kl. 9&ndash;14</span>
+              <span className="text-sm text-accent/60 font-medium">23. maj &ndash; 10. oktober</span>
             </span>
           </div>
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.1] mb-6 animate-fade-in-up-delay whitespace-nowrap">
-            Gladsaxe Loppemarked.
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.1] mb-6 animate-fade-in-up-delay">
+            H&oslash;je Gladsaxe Loppemarked.
           </h1>
-          <p className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#6b7f52] leading-[1.1] mb-6 animate-fade-in-up-delay">
+          <p className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#1f7030] leading-[1.1] mb-6 animate-fade-in-up-delay">
             Giv ting nyt liv.
           </p>
           <p className="text-lg sm:text-xl text-slate-700 font-medium mb-12 max-w-md mx-auto leading-relaxed animate-fade-in-up-delay-2">
-            Kom forbi Gladsaxe Torv og oplev gl&aelig;den ved genbrug og gode fund.
+            Kom forbi H&oslash;je Gladsaxe Torv og oplev gl&aelig;den ved genbrug og gode fund.
           </p>
           <div className="flex justify-center animate-fade-in-up-delay-2">
             <a
@@ -75,11 +75,11 @@ export default function Home() {
             Om os
           </span>
           <p className="text-muted text-lg leading-relaxed">
-            Gladsaxe Loppemarked drives af <strong className="font-semibold text-foreground">H&oslash;je Gladsaxe Idr&aelig;tsforening</strong> &ndash;
-            en lokal amat&oslash;rforening, der siden 1966 har samlet b&oslash;rn, unge og voksne om fodbold, h&aring;ndbold, pickleball og f&aelig;llesskab.
+            H&oslash;je Gladsaxe Loppemarked drives af <strong className="font-semibold text-foreground">H&oslash;je Gladsaxe Idr&aelig;tsforening</strong> &ndash;
+            en lokal forening, der siden 1966 har samlet b&oslash;rn, unge og voksne om fodbold, h&aring;ndbold og f&aelig;llesskab &ndash; og nu ogs&aring; pickleball.
           </p>
           <p className="text-muted text-lg leading-relaxed mt-6">
-            Hele overskuddet fra loppemarkedet g&aring;r ubeskaaret til foreningens aktiviteter &ndash; til tr&aelig;ning, kampe, udstyr og sociale arrangementer for vores medlemmer.
+            Et eventuelt overskud fra loppemarkedet g&aring;r ubeskaaret til foreningens aktiviteter &ndash; til tr&aelig;ning, kampe, udstyr og sociale arrangementer for vores medlemmer.
             N&aring;r du k&oslash;ber eller s&aelig;lger hos os, st&oslash;tter du alts&aring; det lokale idr&aelig;tsliv i Gladsaxe.
           </p>
         </div>
@@ -106,7 +106,7 @@ export default function Home() {
               </div>
               <h3 className="font-semibold text-lg mb-2 text-foreground">Adresse</h3>
               <p className="text-muted text-sm leading-relaxed">
-                Gladsaxe Torv
+                H&oslash;je Gladsaxe Torv 4
                 <br />
                 2860 S&oslash;borg
               </p>
@@ -123,7 +123,7 @@ export default function Home() {
                 <br />
                 09:00 &ndash; 14:00
                 <br />
-                10. maj &ndash; 17. oktober
+                23. maj &ndash; 10. oktober
               </p>
             </div>
             <div className="bg-accent-soft rounded-2xl p-7 border border-accent/10 hover:border-accent/20 hover:shadow-md transition-all duration-200">
@@ -179,7 +179,7 @@ export default function Home() {
             Vil du have en stadeplads?
           </h2>
           <p className="text-muted text-lg mb-10">
-            Book din plads online og v&aelig;r med n&aelig;ste s&oslash;ndag.
+            Book din plads online og v&aelig;r med n&aelig;ste l&oslash;rdag.
             Stadepladser tildeles efter f&oslash;rst til m&oslash;lle.
           </p>
           <a
@@ -220,10 +220,10 @@ export default function Home() {
               <div>
                 <h3 className="font-semibold mb-1">Email</h3>
                 <a
-                  href="mailto:info@gladsaxeloppemarked.dk"
+                  href="mailto:info@hgloppemarked.dk"
                   className="text-accent hover:underline"
                 >
-                  info@gladsaxeloppemarked.dk
+                  info@hgloppemarked.dk
                 </a>
               </div>
             </div>
@@ -252,7 +252,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="font-semibold mb-1">Adresse</h3>
-                <p className="text-muted">Gladsaxe Torv
+                <p className="text-muted">H&oslash;je Gladsaxe Torv 4
                 <br />
                 2860 S&oslash;borg</p>
               </div>
@@ -264,9 +264,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-gray-100 py-10 px-6">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span className="font-bold uppercase tracking-tight text-foreground">Gladsaxe Loppemarked</span>
+          <span className="font-bold uppercase tracking-tight text-foreground">H&oslash;je Gladsaxe Loppemarked</span>
           <p className="text-sm text-muted">
-            &copy; 2026 Gladsaxe Loppemarked. Alle rettigheder forbeholdes.
+            &copy; 2026 H&oslash;je Gladsaxe Loppemarked. Alle rettigheder forbeholdes.
           </p>
         </div>
       </footer>

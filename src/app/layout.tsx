@@ -14,9 +14,9 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Gladsaxe Loppemarked",
+  title: "Høje Gladsaxe Loppemarked",
   description:
-    "Find unikke fund og gode tilbud til Gladsaxe Loppemarked. Kom forbi og oplev stemningen!",
+    "Find unikke fund og gode tilbud til Høje Gladsaxe Loppemarked. Kom forbi og oplev stemningen!",
 };
 
 export default function RootLayout({

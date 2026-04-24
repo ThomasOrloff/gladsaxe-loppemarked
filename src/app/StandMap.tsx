@@ -90,6 +90,11 @@ export default function StandMap() {
 
           <rect x="460" y="490" width="35" height="180" fill="#e5e7eb" stroke="#9ca3af" strokeWidth="0.5" />
 
+          <rect x="180" y="80" width="880" height="60" fill="#e5e7eb" stroke="#9ca3af" strokeWidth="0.8" rx="3" />
+          <text x="620" y="116" textAnchor="middle" fontSize="14" fill="#374151" fontWeight="700" letterSpacing="1">
+            SILVER BACK FITNESS
+          </text>
+
           <text x="140" y="175" fontSize="10" fill="#64748b" fontWeight="500">
             Indgang til Gladsaxe Kulturhus
           </text>
@@ -99,14 +104,12 @@ export default function StandMap() {
             H
           </text>
 
-          <circle cx="180" cy="195" r="9" fill="#dc2626" />
-          <text x="195" y="199" fontSize="10" fill="#111" fontWeight="500">
-            Café-område
+          <circle cx="180" cy="195" r="10" fill="#dc2626" />
+          <text x="196" y="193" fontSize="11" fill="#111" fontWeight="600">
+            Café
           </text>
-
-          <circle cx="545" cy="620" r="11" fill="#dc2626" />
-          <text x="562" y="625" fontSize="11" fill="#111" fontWeight="600">
-            Information
+          <text x="196" y="205" fontSize="10" fill="#374151" fontWeight="500">
+            + Info
           </text>
 
           {Array.from({ length: 7 }).map((_, i) => (
