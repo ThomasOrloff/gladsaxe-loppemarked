@@ -74,7 +74,7 @@ export default function Home() {
             Om os
           </span>
           <p className="text-muted text-lg leading-relaxed">
-            H&oslash;je Gladsaxe Loppemarked drives af <strong className="font-semibold text-foreground">H&oslash;je Gladsaxe Idr&aelig;tsforening</strong> &ndash;
+            H&oslash;je Gladsaxe Loppemarked drives af <strong className="font-semibold text-foreground">H&oslash;je Gladsaxe IF</strong> &ndash;
             en lokal forening, der siden 1966 har samlet b&oslash;rn, unge og voksne om fodbold, h&aring;ndbold og f&aelig;llesskab &ndash; og nu ogs&aring; pickleball.
           </p>
           <p className="text-muted text-lg leading-relaxed mt-6">
@@ -217,10 +217,10 @@ export default function Home() {
               <div>
                 <h3 className="font-semibold mb-1">Telefon</h3>
                 <a
-                  href="tel:+4512345678"
+                  href="tel:+4540719496"
                   className="text-accent hover:underline"
                 >
-                  +45 12 34 56 78
+                  +45 40 71 94 96
                 </a>
               </div>
             </div>
