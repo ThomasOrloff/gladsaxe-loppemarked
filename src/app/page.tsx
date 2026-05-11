@@ -1,5 +1,4 @@
 import Image from "next/image";
-import StandMap from "./StandMap";
 
 export default function Home() {
   return (
@@ -57,7 +56,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center animate-fade-in-up-delay-2">
             <a
-              href="https://booking.gladsaxeloppemarked.dk"
+              href="https://fleamarkets.wecircle.io/hgloppemarked/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-accent hover:bg-accent-light text-white font-semibold px-10 py-4 rounded-full transition-all duration-200 shadow-lg shadow-accent/20 hover:shadow-xl hover:shadow-accent/25 hover:-translate-y-0.5 text-base"
@@ -154,24 +153,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pladsoversigt */}
-      <section id="pladser" className="py-24 px-6 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <span className="text-sm font-semibold text-accent uppercase tracking-widest">
-              Pladsoversigt
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-bold mt-3 text-foreground">
-              V&aelig;lg din plads
-            </h2>
-            <p className="text-muted mt-4 max-w-xl mx-auto">
-              Se alle stadepladser p&aring; kortet. Klik p&aring; en plads for at g&aring; direkte til booking.
-            </p>
-          </div>
-          <StandMap />
-        </div>
-      </section>
-
       {/* Book en stand CTA */}
       <section id="booking" className="py-24 px-6 bg-accent-soft">
         <div className="max-w-2xl mx-auto text-center">
@@ -183,7 +164,7 @@ export default function Home() {
             Stadepladser tildeles efter f&oslash;rst til m&oslash;lle.
           </p>
           <a
-            href="https://booking.gladsaxeloppemarked.dk"
+            href="https://fleamarkets.wecircle.io/hgloppemarked/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-accent hover:bg-accent-light text-white font-semibold px-10 py-4 rounded-full transition-all duration-200 shadow-lg shadow-accent/25 hover:shadow-xl hover:-translate-y-0.5 text-base"

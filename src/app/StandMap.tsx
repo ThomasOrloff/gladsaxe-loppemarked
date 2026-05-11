@@ -178,7 +178,7 @@ export default function StandMap() {
               </div>
               <div className="text-xs text-muted mb-4">{STALL_INFO[selected.type].size}</div>
               <a
-                href="https://booking.gladsaxeloppemarked.dk"
+                href="https://fleamarkets.wecircle.io/hgloppemarked/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center bg-accent hover:bg-accent-light text-white text-sm font-semibold px-4 py-2.5 rounded-full transition-colors"
