@@ -135,7 +135,7 @@ export default function Home() {
               <p className="text-muted text-sm leading-relaxed">
                 Entr&eacute;: Gratis
                 <br />
-                Stadeplads: Fra 150 kr.
+                Stadeplads: Fra 175 kr.
               </p>
             </div>
             <div className="bg-accent-soft rounded-2xl p-7 border border-accent/10 hover:border-accent/20 hover:shadow-md transition-all duration-200">
