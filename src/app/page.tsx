@@ -41,8 +41,8 @@ export default function Home() {
         <div className="relative max-w-3xl mx-auto text-center">
           <div className="animate-fade-in-up">
             <span className="inline-flex flex-col items-center bg-accent-soft text-accent text-base font-semibold px-8 py-4 rounded-2xl mb-10 gap-1 border border-accent/10">
-              <span>Hver l&oslash;rdag i H&oslash;je Gladsaxe fra kl. 9&ndash;14</span>
-              <span className="text-sm text-accent/60 font-medium">23. maj &ndash; 10. oktober</span>
+              <span>S&aelig;sonen er slut for i &aring;r &ndash; tak for denne gang!</span>
+              <span className="text-sm text-accent/60 font-medium">Vi er tilbage maj &ndash; september 2027</span>
             </span>
           </div>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.1] mb-6 animate-fade-in-up-delay">
@@ -52,16 +52,14 @@ export default function Home() {
             Giv ting nyt liv.
           </p>
           <p className="text-lg sm:text-xl text-slate-700 font-medium mb-12 max-w-md mx-auto leading-relaxed animate-fade-in-up-delay-2">
-            Kom forbi H&oslash;je Gladsaxe Torv og oplev gl&aelig;den ved genbrug og gode fund.
+            Tak til alle, der bes&oslash;gte os i &aring;r. Vi gl&aelig;der os til at byde velkommen igen i maj 2027.
           </p>
           <div className="flex justify-center animate-fade-in-up-delay-2">
             <a
-              href="https://fleamarkets.wecircle.io/hgloppemarked/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#booking"
               className="inline-flex items-center justify-center bg-accent hover:bg-accent-light text-white font-semibold px-10 py-4 rounded-full transition-all duration-200 shadow-lg shadow-accent/20 hover:shadow-xl hover:shadow-accent/25 hover:-translate-y-0.5 text-base"
             >
-              Book en stand &rarr;
+              L&aelig;s om n&aelig;ste s&aelig;son &darr;
             </a>
           </div>
         </div>
@@ -118,11 +116,11 @@ export default function Home() {
               </div>
               <h3 className="font-semibold text-lg mb-2 text-foreground">&Aring;bningstider</h3>
               <p className="text-muted text-sm leading-relaxed">
-                Hver l&oslash;rdag
+                N&aelig;ste s&aelig;son:
                 <br />
-                09:00 &ndash; 14:00
+                Maj &ndash; september 2027
                 <br />
-                23. maj &ndash; 10. oktober
+                Mere info f&oslash;lger
               </p>
             </div>
             <div className="bg-accent-soft rounded-2xl p-7 border border-accent/10 hover:border-accent/20 hover:shadow-md transition-all duration-200">
@@ -157,19 +155,18 @@ export default function Home() {
       <section id="booking" className="py-24 px-6 bg-accent-soft">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-foreground">
-            Vil du have en stadeplads?
+            Vi ses igen i 2027
           </h2>
           <p className="text-muted text-lg mb-10">
-            Book din plads online og v&aelig;r med n&aelig;ste l&oslash;rdag.
-            Stadepladser tildeles efter f&oslash;rst til m&oslash;lle.
+            Loppemarkedet er stoppet for i &aring;r og vender tilbage i maj 2027.
+            N&aelig;ste s&aelig;son l&oslash;ber fra maj til september 2027 &ndash; mere info om datoer og booking
+            kommer p&aring; et senere tidspunkt. Hold &oslash;je med siden, eller kontakt os hvis du har sp&oslash;rgsm&aring;l.
           </p>
           <a
-            href="https://fleamarkets.wecircle.io/hgloppemarked/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#kontakt"
             className="inline-flex items-center justify-center bg-accent hover:bg-accent-light text-white font-semibold px-10 py-4 rounded-full transition-all duration-200 shadow-lg shadow-accent/25 hover:shadow-xl hover:-translate-y-0.5 text-base"
           >
-            Book en stand &rarr;
+            Kontakt os &rarr;
           </a>
         </div>
       </section>
